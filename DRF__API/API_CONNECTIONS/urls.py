@@ -1,0 +1,30 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('USER_INFORMATION/', views.USER_INFORMATION_CONNECTION, name='USER_INFORMATION'),
+    path('COMMITMENT/', views.COMMITMENT_CONNECTION, name='COMMITMENT'),
+    path('ALGO_BALANCE/', views.ALGO_BALANCE_CONNECTION, name='ALGO_BALANCE'),
+    path('ALGO_TRADES/', views.ALGO_TRADES_CONNECTION, name='TRADE_HISTORY_FILE'),
+    path('TIMESERIES/', views.TIMESERIES_DF_CONNECTION, name='TIMESERIES'),
+    path('TABLES/', views.TABLES_DF_CONNECTION, name='TABLES'),
+    path('ALLOCATION_TABLE/', views.ALLOCATION_TABLE_DF_CONNECTION, name='ALLOCATION_TABLE'),
+    path('DONUT_CHART/', views.DONUT_CHART_CONNECTION, name='DONUT_CHART'),
+    path('COINS/', views.COINS_CONNECTION, name='COINS'),
+    path('KPI/', views.KPI_CONNECTION, name='KPI'),
+    path('TRANSFER_FUNDS/<str:SENDING>/<str:RECIEVING>/<str:AMOUNT>/', views.TRANSFER_FUNDS, name='TRANSFER_FUNDS'),
+    path("FOLDER_TREE/", views.FOLDER_TREE, name="folder_tree"),
+    path("FILE_CONTENT/", views.GET_FILE_CONTENT, name="get_file_content"),
+    path('SAVE_FILE/', views.SAVE_FILE, name='save_file'),
+    path('STRATEGIES/', views.STRATEGIES_CONNECTION, name='STRATEGIES'),
+    path('DEVELOPMENT_STRATEGIES/', views.DEVELOPMENT_STRATEGIES_CONNECTION, name='DEVELOPMENT_STRATEGIES'),
+    path('PUBLISH_STRATEGY/', views.PUBLISH_STRATEGY_CONNECTION, name='PUBLISH_STRATEGY'),
+    path('SAVE_DEVELOPMENT_CODE/', views.SAVE_DEVELOPMENT_CODE_CONNECTION, name='SAVE_DEVELOPMENT_CODE'),
+    path(
+        '_SIMULATION_/<str:INVESTMENT_TYPE>/<int:INITIAL_INVESTMENT_AMOUNT>/<int:PERIODIC_INVESTMENT_AMOUNT>/<str:PERIODIC_OPTIONS>/<int:HISTORY>/<str:HISTORY_OPTIONS>/<str:INTEREST_RATE>/<str:COMPOUND_FREQUENCY>/<str:EQUITIES>/<int:REOCCURING_AMOUNT>/<str:REOCCURING_FREQUENCY>/<str:INDEPEDENT_INVESTMENTS>/',
+        views.simulation_view,
+        name='simulation',
+    ),
+
+]
+
