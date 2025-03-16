@@ -1,0 +1,32 @@
+[
+    {
+      "strategy": "Strategy A",
+      "balances": [
+        { "date": "2023-01-01", "balance": 10000 },
+        { "date": "2023-02-01", "balance": 12000 },
+        { "date": "2023-03-01", "balance": 13000 },
+        { "date": "2023-04-01", "balance": 15000 },
+        { "date": "2023-05-01", "balance": 14000 }
+      ]
+    },
+    {
+      "strategy": "Strategy B",
+      "balances": [
+        { "date": "2023-01-01", "balance": 8000 },
+        { "date": "2023-02-01", "balance": 9000 },
+        { "date": "2023-03-01", "balance": 10000 },
+        { "date": "2023-04-01", "balance": 11000 },
+        { "date": "2023-05-01", "balance": 11500 }
+      ]
+    },
+    {
+      "strategy": "Strategy C",
+      "balances": [
+        { "date": "2023-01-01", "balance": 7000 },
+        { "date": "2023-02-01", "balance": 7500 },
+        { "date": "2023-03-01", "balance": 8000 },
+        { "date": "2023-04-01", "balance": 8500 },
+        { "date": "2023-05-01", "balance": 8700 }
+      ]
+    }
+  ]
