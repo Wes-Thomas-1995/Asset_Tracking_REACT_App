@@ -21,7 +21,9 @@ https://github.com/user-attachments/assets/58e98d44-5007-49c0-be2d-3b45f986ea2d
 Further below you can see the Crypto page and its various components. Within the Quantitative Trading repository you can see the strategies I use, here is where we track the strategies performance, analyse it and even develop new strategies. This sections key features is: Portfolio, Analytics, Design Zone and Library.
 
 
+https://github.com/user-attachments/assets/4a429348-32d4-4e3f-9256-d2d741243c01
 
 
+https://github.com/user-attachments/assets/f0346552-94ee-4289-91ea-2f83b6d54657
 
 
