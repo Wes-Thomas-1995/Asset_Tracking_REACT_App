@@ -8,3 +8,7 @@ It consistes of:
 - Crypto - The user tracks their automated trading strategoies in detail with enhanced analytics and strategy development.
 
 
+
+
+https://github.com/user-attachments/assets/6b85c014-35ff-40bf-83db-71a854659931
+
